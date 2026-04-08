@@ -13,6 +13,8 @@ step 4:locate youtube tv  folder  and add either the adblocked youtube (vaccum t
 
 step 4:your windows pc will have its own unique ui like android tv 
 
+Tutorial:https://youtu.be/a7xvXmVHe4Y
+
 if you come across any problem contact:prayasqwertt@gmail.com
 
 
