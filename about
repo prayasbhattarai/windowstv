@@ -1,0 +1,46 @@
+🌿 Prayas TV Launcher
+Prayas TV Launcher is a lightweight, high-performance media launcher for Windows, designed for a "console-like" TV experience. Built with a C# WinForms backend and a modern WebView2 (Chromium) frontend, it combines premium aesthetics with surgical performance optimizations for legacy hardware.
+
+LicensePlatformHardware
+
+✨ Key Features
+🎨 Premium Design Aesthetics
+Dual Dynamic Themes: Switch between the cozy "Chill Nature" Light Mode and the atmospheric Midnight Dark Mode.
+Glassmorphic UI: Beautiful semi-transparent layers with custom gradients and warm, organic tones.
+Xbox-Style Profile System: Integrated avatar chip, gamertag support, and custom user initials badge.
+⚡ Surgically Optimized Performance
+Zero-Impact Idle: GPU utilization drops to 0%–1% when idle, courtesy of the removal of constant-render loops.
+Shadow Proxying: Advanced CSS technique that uses compositor-only opacity animations instead of expensive real-time shadow calculations.
+Layout Isolation: Uses CSS containment strategy to prevent UI updates (like the clock) from triggering full-page layout shifts.
+Legacy Friendly: Specifically optimized to run at 60 FPS even on older hardware like Intel Core 2 Duo with integrated graphics.
+🛠️ Built-in Functionality
+Universal Wallpaper Shuffler: Automatically cycles through custom wallpapers; includes an optimized C# backend for image compression.
+System Resource Monitor: High-performance real-time monitoring of CPU, RAM, and GPU utilization via a native bridge.
+App Management: Easily add local .exe files or web URLs. Recently opened apps are tracked and pinned for quick access.
+Clean Boot Mode: Designed to be used as a Windows Shell replacement for a pure TV-box experience.
+💻 System Requirements
+Component	Minimum	Recommended
+OS	Windows 10 LTSC / 11	Windows 10 LTSC / 11
+CPU	Dual-Core (e.g. Core 2 Duo)	Quad-Core (Core i3/i5 10th Gen+)
+RAM	4 GB	8 GB
+GPU	DirectX 11 Capable (Intel G41+)	Dedicated GPU or Iris Xe
+Storage	HDD (Usable)	SSD (Highly Recommended)
+🚀 Getting Started
+Clone the Repository:
+bash
+git clone https://github.com/yourusername/prayas-tv-launcher.git
+Build the Solution:
+Open the .sln file in Visual Studio 2022.
+Restore NuGet packages (Microsoft.Web.WebView2).
+Build as Release (x64).
+Configure Assets:
+Place your wallpapers in the /assets directory.
+Run tvkkv4.1.exe.
+🤝 Contributing
+Contributions are welcome! Feel free to fork the repo and submit a PR.
+
+📜 License
+This project is licensed under the MIT License.
+
+Created with ❤️ for the retro-modding and home-theater community.
+
